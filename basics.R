@@ -77,3 +77,8 @@ most_freq
 # box plot
 data = c(5,6,7,8,9,0,1,2,3,4)
 boxplot(data, main='box plot', col='blue')
+
+
+# to find the quartile
+
+quantile(m, prob=c(0.25, 0.75))
